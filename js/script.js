@@ -1,32 +1,21 @@
-if(1) {
-    console.log('ok!');
-} else {
-    console.log('error');
+let num = 50
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++
+// }
+
+do {
+    console.log(num);
+    num++
 }
+while (num < 55)
 
-if(num < 49) {
-    console.log('error');
-} else if  (num > 100) {
-    console.log('much');
-} else {
-    console.log('ok');
-}
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        // break
+        continue
+    }
 
-(num == 50) ? console.log('ok') : console.log('error'); 
-
-const num = '51'  
-
-switch (num) { 
-    case '49':
-        console.log('noooo')
-        break
-    case '100':
-        console.log('noooo')
-        break
-    case '50':
-        console.log('yess')
-        break
-    default:
-        console.log('не в этот раз');
-        break
+    console.log(i);
 }
