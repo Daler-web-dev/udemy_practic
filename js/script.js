@@ -27,11 +27,11 @@
 //     console.log('зритель');
 // } else if (personalMovieDb.count >=30) {
 //     console.log('киноман');
-// } else {
-//     console.log('error');
-// }
+} else {
+    console.log('error');
+}
 
-// console.log(personalMovieDb);
+console.log(personalMovieDb);
 
 
 
