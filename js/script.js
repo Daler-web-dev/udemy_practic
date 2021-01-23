@@ -1,21 +1,40 @@
-let num = 50
+// const numberOfFilms = +prompt('сколько фильмов вы уже посмотрели', '')
 
-// while (num <= 55) {
-//     console.log(num);
-//     num++
+// const personalMovieDb = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
 // }
 
-do {
-    console.log(num);
-    num++
-}
-while (num < 55)
+// for (let i = 0; i < 2; i++) {
+//     const a = prompt('один из последних просмотренных фильмов', ''),
+//           b = prompt('на сколько вы его оцените?', '')
 
-for (let i = 1; i < 10; i++) {
-    if (i === 6) {
-        // break
-        continue
-    }
+//     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+//         personalMovieDb.movies[a] = b  
+//         console.log('done');
+//     } else {
+//         console.log('error');
+//         i--
+//     }
+// }
 
-    console.log(i);
-}
+// if (personalMovieDb.count < 10) {
+//     console.log('мало фильмов');
+// } else if (personalMovieDb.count >= 10 && personalMovieDb.count < 30) {
+//     console.log('зритель');
+// } else if (personalMovieDb.count >=30) {
+//     console.log('киноман');
+// } else {
+//     console.log('error');
+// }
+
+// console.log(personalMovieDb);
+
+
+
+let x = 5
+
+alert(x++)
