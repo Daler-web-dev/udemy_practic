@@ -22,11 +22,11 @@
 // }
 
 // if (personalMovieDb.count < 10) {
-//     console.log('мало фильмов');
-// } else if (personalMovieDb.count >= 10 && personalMovieDb.count < 30) {
-//     console.log('зритель');
-// } else if (personalMovieDb.count >=30) {
-//     console.log('киноман');
+    console.log('мало фильмов');
+} else if (personalMovieDb.count >= 10 && personalMovieDb.count < 30) {
+    console.log('зритель');
+} else if (personalMovieDb.count >=30) {
+    console.log('киноман');
 } else {
     console.log('error');
 }
